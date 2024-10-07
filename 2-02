@@ -1,0 +1,15 @@
+def hello_world():
+    print("Hello World!")
+
+def hello_user(name):
+    return f"Hello, {name}!"
+
+def hello_world():
+    print("Hello World!")
+
+def hello_user(name):
+    return f"Hello, {name}!"
+
+
+hello_world()  
+print(hello_user("Aniketh")) 
