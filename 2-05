@@ -1,0 +1,19 @@
+
+input_string = input()
+
+result = input_string[1:-1]
+
+print(result)
+
+
+input_string = input()
+
+
+if len(input_string) >= 2:
+    
+    result = input_string[-1] + input_string[1:-1] + input_string[0]
+else:
+    
+    result = input_string
+
+print(result)
