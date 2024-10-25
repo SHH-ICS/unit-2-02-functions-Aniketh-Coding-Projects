@@ -1,0 +1,11 @@
+
+eggs = int(input())
+
+
+cartons = eggs // 12
+
+
+leftover_eggs = eggs % 12
+
+print(cartons)
+print(leftover_eggs)
