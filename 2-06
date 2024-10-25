@@ -9,3 +9,48 @@ leftover_eggs = eggs % 12
 
 print(cartons)
 print(leftover_eggs)
+
+
+a = int(input())
+b = int(input())
+
+if a % b == 0:
+    print("divisible")
+else:
+    print("not divisible")
+
+
+import math
+
+r = float(input())
+
+area = math.pi * r ** 2
+
+print(area)
+
+
+import math
+
+a = float(input())
+b = float(input())
+
+geometric_mean = math.sqrt(a * b)
+
+print(geometric_mean)
+
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+
+sum_result = num1 + num2
+
+final_result = sum_result * num3
+
+print(final_result)
+
+
+height_in_feet = float(input())
+
+height_in_cm = height_in_feet * 30.48
+
+print(height_in_cm)
